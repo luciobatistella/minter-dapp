@@ -1,8 +1,8 @@
 const contractAddress = "0x3100B1236aA000f2fefC68721DC117f073508Bb2"; //Replace with your own contract address
 const chain = 'mainnet'; // rinkeby or polygon
 
-const welcome_h1 = "Seja bem vindos alfaceiros!";
-const welcome_h2 = "Vem, conecta sua metamask... vou roubar toda sua grana.";
+const welcome_h1 = "Seja bem vindos alfaceiros e alfaceiras!";
+const welcome_h2 = "Esse projeto vai nos deixar rico";
 const welcome_p = 'Esse mint vai ser um estouro! Queremos seu dinheiro alfaceiro!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
