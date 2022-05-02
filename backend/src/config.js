@@ -17,18 +17,15 @@ const layerConfigurations = [
     growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
-      { name: "Bottom lid" },
-      { name: "Eye color" },
-      { name: "Goo" },
-      { name: "Shine" },
-      { name: "Top lid" },
+      { name: "Body" },
+      { name: "Eye" },
     ],
   },
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
-      { name: "Shine" },
+      { name: "Eye" },
     ],
   },
 ];
@@ -58,8 +55,8 @@ const CHAIN = 'mainnet'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Lettuce Hands';
 const CONTRACT_SYMBOL = 'LH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00';
-const TREASURY_ADDRESS = '0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00';
+const OWNER_ADDRESS = '0xa0Df524031a5bdB0643FfACE5B001aCe2D16eA7C';
+const TREASURY_ADDRESS = '0xa0Df524031a5bdB0643FfACE5B001aCe2D16eA7C';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.08; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -70,10 +67,10 @@ const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 10000 ; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xa0Df524031a5bdB0643FfACE5B001aCe2D16eA7C"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0x3100B1236aA000f2fefC68721DC117f073508Bb2"; // If you want to manually include it
