@@ -1,5 +1,5 @@
-const contractAddress = "0x3789B51fcC4DF14c3A71e5e7a79cFA9b0cEcA547"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x0CC805107c573c73B003fDB054abee7Ef842BC52"; //Replace with your own contract address
+const chain = 'mainnet'; // rinkeby or polygon
 
 const welcome_h1 = "Seja bem vindos alfaceiros!";
 const welcome_h2 = "Vem, conecta sua metamask... vou roubar toda sua grana.";
