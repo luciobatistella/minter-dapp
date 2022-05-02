@@ -58,7 +58,7 @@ const CHAIN = 'mainnet'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Lettuce Hands';
 const CONTRACT_SYMBOL = 'LH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x6388cb805b4E1a1c5bf9Cd868c0926f6147C7A3b';
+const OWNER_ADDRESS = '0x0CC805107c573c73B003fDB054abee7Ef842BC52';
 const TREASURY_ADDRESS = '0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.08; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
@@ -70,7 +70,7 @@ const PUBLIC_MINT_START_DATE = "2022-05-01T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-05-01T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 10000 ; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x0CC805107c573c73B003fDB054abee7Ef842BC52"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
