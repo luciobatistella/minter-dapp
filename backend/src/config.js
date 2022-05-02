@@ -58,7 +58,7 @@ const CHAIN = 'mainnet'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Lettuce Hands';
 const CONTRACT_SYMBOL = 'LH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00';
+const OWNER_ADDRESS = '0x6388cb805b4E1a1c5bf9Cd868c0926f6147C7A3b';
 const TREASURY_ADDRESS = '0xd3B87dC18f9eD56a41703CB38d633b5D3b9cff00';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.08; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
